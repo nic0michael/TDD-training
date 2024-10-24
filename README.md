@@ -17,5 +17,5 @@
 The Master branch contains the solution \
 You need checkout the development branch to do the exercise: \
 by using this command: \
-git clone  -b development
+**git clone https://github.com/nic0michael/TDD-training.git -b development**
 
