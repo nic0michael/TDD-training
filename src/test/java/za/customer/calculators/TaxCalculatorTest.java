@@ -25,12 +25,7 @@ public class TaxCalculatorTest {
         Assertions.assertNotNull(dto);
         double incomeTax = dto.getIncomeTax();
         Assertions.assertEquals(incomeTax , expectedIncomeTax);
-
-
-
     }
-
-
 
     private CustomerRequest makeCustomerRequest() {
         CustomerRequest request = new CustomerRequest();
