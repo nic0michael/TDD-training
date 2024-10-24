@@ -12,3 +12,6 @@
 4. IF YOU DO THIS THERE IS NO NEED TO TEST Controller Classes and Service Classes
 5. Make the Service Classes implement Interfaces
 6. We can now Mock the Service classes
+
+## Project Requirements
+
