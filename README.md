@@ -13,5 +13,13 @@
 5. Make the Service Classes implement Interfaces
 6. We can now Mock the Service classes
 
-## Project Requirements
+## Project Specifications
+if income < 2000)  calculate tax as 10% of income
+if income < 10000)  calculate tax as 75% of income
+if income < 50000)  calculate tax as 80% of income
+if income > 50000)  calculate tax as 90% of income
 
+if age > 70 calculate tax as 75% of income tax
+if age > 65 calculate tax as 80% of income tax
+
+If the Gender is Female calculate tax as 80% of income tax
