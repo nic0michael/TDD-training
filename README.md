@@ -18,11 +18,13 @@ if income < 2000)  calculate tax as 10% of income \
 if income < 10000)  calculate tax as 75% of income \
 if income < 50000)  calculate tax as 80% of income \
 if income > 50000)  calculate tax as 90% of income 
-
+CustomerAdapter
 if age > 70 calculate tax as 75% of income tax \
 if age > 65 calculate tax as 80% of income tax 
 
 If the Gender is Female calculate tax as 80% of income tax
+
+We have provided you with a class: **CustomerAdapter** that converts **CustomerDto** to **CustomerRequest** to use in your solution
 
 ## The TDD Steps
 1. For the first Business Rule
