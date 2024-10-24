@@ -11,8 +11,8 @@ public class SapServiceImpl implements SapService {
     @Override
     public SapResponse sendToSap(SapRequest request) throws Exception {
         SapResponse response = new SapResponse();
-        response.setMessage("sucess");
-        response.setStatus("200");
+        response.setMessage("Wot working yet");
+        response.setStatus("432");
         return response;
     }
 }
