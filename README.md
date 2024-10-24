@@ -23,3 +23,10 @@ if age > 70 calculate tax as 75% of income tax \
 if age > 65 calculate tax as 80% of income tax 
 
 If the Gender is Female calculate tax as 80% of income tax
+
+## The TDD Steps
+1. For the first Business Rule
+2. Write a failing unit test
+3. Write enough code to pass the test
+4. Refactor the code making sure it passes the test
+5. repeat this process till all Business Rules are working in code 
