@@ -14,30 +14,12 @@ import java.security.InvalidParameterException;
 public class TaxCalculatorTest {
     private TaxCalculator taxCalculator;
 
+    /*
+     * You need to use TDD to create this code
+     */
     @Test
     public void testTaxCalculator() throws Exception {
-        CustomerAdapter adapter = new CustomerAdapter();
-        taxCalculator = new TaxCalculator( adapter);
-        double expectedIncomeTax =123.46;
-        CustomerDto dto;
-        CustomerRequest request = makeCustomerRequest();
-        dto = taxCalculator.calculateTax(request);
-        Assertions.assertNotNull(dto);
-        double incomeTax = dto.getIncomeTax();
-        Assertions.assertEquals(incomeTax , expectedIncomeTax);
-
-
 
     }
 
-
-
-    private CustomerRequest makeCustomerRequest() {
-        CustomerRequest request = new CustomerRequest();
-        request.setAge("21");
-        request.setName("John Doe");
-        request.setCustGender(Gender.MALE.name());
-        request.setIncome("1234.56");
-        return request;
-    }
 }
