@@ -43,4 +43,4 @@ by using this command: \
 **git clone https://github.com/nic0michael/TDD-training.git -b development**
 
 ## Video Published
-[.](https://www.youtube.com/watch?v=bK6b-Ah5uls)
+[.](https://www.youtube.com/watch?v=bK6b-Ah5uls) Not yet
