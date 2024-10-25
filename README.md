@@ -41,3 +41,6 @@ Please build the TaxCalculator class using TDD
 You need checkout the development branch to do the exercise: \
 by using this command: \
 **git clone https://github.com/nic0michael/TDD-training.git -b development**
+
+## Video Published
+[Test Driven Development video](https://www.youtube.com/watch?v=bK6b-Ah5uls)
