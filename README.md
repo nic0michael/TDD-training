@@ -24,7 +24,11 @@ if age > 65 calculate tax as 80% of income tax
 
 If the Gender is Female calculate tax as 80% of income tax
 
-We have provided you with a class: **CustomerAdapter** that converts **CustomerDto** to **CustomerRequest** to use in your solution
+We have provided you with a class: **CustomerAdapter** that converts **CustomerDto** to **CustomerRequest** to use in your solution \
+
+We have decided that the Class **CustomerBusinessProcessor** should be renamed to ***CustomerBusinessService*** 
+
+Please build the TaxCalculator class using TDD
 
 ## The TDD Steps
 1. For the first Business Rule
