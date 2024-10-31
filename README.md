@@ -8,7 +8,7 @@
 ## Working with Spring Boot Micro-services do these things:
 1. Let the Controller Classes **not have DATA CHANGING LOGIC that is RETURN WHAT YOU GET**
 2. Let the Service Classes **not have DATA CHANGING LOGIC that is RETURN WHAT YOU GET**
-3. DECOUPLE the Controller Classes from the Service Classes **using BusinessLogic Helper Classes**
+3. DECOUPLE the Controller Classes from the Service Classes **using BusinessLogicService (Helper) Classes**
 4. **IF YOU DO THIS THERE IS NO NEED TO TEST** Controller Classes and Service Classes
 5. Make the Service Classes implement Interfaces
 6. We can now Mock the Service classes
