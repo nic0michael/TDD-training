@@ -37,7 +37,7 @@ Please build the TaxCalculator class using TDD
 4. Refactor the code making sure it passes the test
 5. repeat this process till all Business Rules are working in code 
 
-## Get the empty Project you need
+## Get the empty Project you need here:
 You need checkout the development branch to do the exercise: \
 by using this command: \
 **git clone https://github.com/nic0michael/TDD-training.git -b development**
