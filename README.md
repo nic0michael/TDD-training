@@ -4,7 +4,7 @@
 2. Always remember the "**Single Responsibility Rule" of SOLID principles** 
 3. Let each Class do one thing only and do it well
 4. Let each method do one thing only and do it well
-5. For one to understand how to use the classes in a project then look at the Unit Tests
+5. For one to understand how to use the classes in a project just look at the Unit Tests
 
 ## Working with Spring Boot Micro-services do these things:
 1. Let the Controller Classes **not have DATA CHANGING LOGIC that is RETURN WHAT YOU GET**
