@@ -1,4 +1,4 @@
-## Some simple rules to follow When doing TDD with Micro-Services:
+## Some simple rules to follow When doing TDD:
 1. Keep your Unit Tests Simple **KEEP UNIT TESTS SIMPLE SO THAT ANYONE CAN UNDERSTAND THEM**
 2. Always remember the "**Single Responsibility Rule" of SOLID principles** 
 3. Let each Class do one thing only and deas it well
