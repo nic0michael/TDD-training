@@ -14,8 +14,10 @@
 6. We can now Mock the Service classes
 
 ## Project Requirements
-The Master branch contains the solution \
+**The Master branch contains the solution** \
 You need checkout the development branch to do the exercise: \
 by using this command: \
 **git clone https://github.com/nic0michael/TDD-training.git -b development**
 
+## Video Published
+**[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)**
