@@ -24,7 +24,7 @@ public class TaxCalculator {
 
 
     public CustomerDto calculateTax(CustomerRequest customerRequest) throws InvalidParameterException {
-
+     return null;
     }
 
 }
