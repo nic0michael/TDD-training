@@ -1,6 +1,6 @@
 # Lecturer Notes
 ## 1. Test1 CustomerAdapterTest 
-
+```java
     @Test
     public void testCustomerAdapter() {
         adapter = new CustomerAdapter();
@@ -19,8 +19,10 @@
         request.setIncome("1234.56");
         return request;
     }
+```
 ---
 ### 1.1 Code 1 CustomerAdapter {
+```java
         if (request == null) {
             throw new InvalidParameterException("request is null");
         }
@@ -40,9 +42,12 @@
         }catch (Exception e) {
             throw new InvalidParameterException(e.getMessage());
         }
-        return dto;
+        return to;
+```
+
 ---
 ## 2. Test 2 TaxCalculatorTest {
+```java
     /*
      * You need to use TDD to create this code
      */
@@ -50,9 +55,9 @@
     public void testTaxCalculator() throws Exception {
 
     }
-
+```
 ### 2.1 Code 2 Dirty
-
+```java
     @Test
     public void testTaxCalculator() throws Exception {
         CustomerAdapter adapter = new CustomerAdapter();
@@ -69,9 +74,9 @@
         double incomeTax = dto.getIncomeTax();
         Assertions.assertEquals(incomeTax , expectedIncomeTax);
     }
-
+```
 ### 2.2 Code 2 Refactored
-
+```java
     @Test
     public void testTaxCalculator() throws Exception {
         CustomerAdapter adapter = new CustomerAdapter();
@@ -93,6 +98,7 @@
         request.setIncome("1234.56");
         return request;
     }
+```    
 ---
 ## 3. CustomerControllerMockClassTest BEHAVIOURAL TESTING METHODOLOGY
 We Mock behaviour, making our Mock Class have Schizophrenic behaviour
@@ -158,9 +164,6 @@ public class CustomerControllerMockClassTest {
         return request;
     }
 }
-
-    }
-
 
 ```
 ---
