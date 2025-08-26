@@ -47,9 +47,10 @@ by using this command: \
 Here we demonstrate how we do testing with MJock Classes:
 **[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)** \
 **Prefer to use Mock Classes, DONT USE MOCKITO**
-
+In this Project, we coined the phrase: schizophrenic mock classes
 
 ## Video Published
 **[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)**
+
 
 
