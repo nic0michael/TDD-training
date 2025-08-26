@@ -43,5 +43,11 @@ You need checkout the development branch to do the exercise: \
 by using this command: \
 **git clone https://github.com/nic0michael/TDD-training.git -b development**
 
+## Unit Tests using schizophrenic(orBehavioral) mock classes
+Here we demonstrate how we do testing with MJock Classes:
+**[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)**
+
+
 ## Video Published
 **[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)**
+
