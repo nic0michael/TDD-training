@@ -45,9 +45,11 @@ by using this command: \
 
 ## Unit Tests using schizophrenic(orBehavioral) mock classes
 Here we demonstrate how we do testing with MJock Classes:
-**[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)**
+**[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)** \
+**Prefer to use Mock Classes, DONT USE MOCKITO**
 
 
 ## Video Published
 **[https://www.youtube.com/watch?v=zubPvawwXyU](https://www.youtube.com/watch?v=zubPvawwXyU)**
+
 
